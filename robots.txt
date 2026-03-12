@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fonterenda.wicolly-alcantara.workers.dev/sitemap.xml
