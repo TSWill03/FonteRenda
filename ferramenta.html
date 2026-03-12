@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferramenta | FonteRenda</title>
+  <meta
+    name="description"
+    content="Ferramenta gratuita para montar oferta, mensagem inicial e plano de ataque para negocios locais."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="page-header site-shell">
+    <nav class="topbar">
+      <a class="brand" href="index.html" aria-label="FonteRenda pagina inicial">
+        <span class="brand-mark">FR</span>
+        <span class="brand-name">FonteRenda</span>
+      </a>
+
+      <div class="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="ferramenta.html" aria-current="page">Ferramenta</a>
+        <a href="artigos/como-conseguir-clientes-no-whatsapp.html">Artigos</a>
+        <a href="nichos/dentistas.html">Nichos</a>
+      </div>
+    </nav>
+
+    <section class="hero hero-home">
+      <div class="panel panel-large">
+        <p class="eyebrow">Ferramenta gratis</p>
+        <h1>Monte a oferta que vai alimentar suas paginas e sua divulgacao.</h1>
+        <p class="lead">
+          Esta pagina continua sendo o centro pratico do projeto. Ela ajuda a gerar promessa,
+          mensagem, follow-up e uma estrutura que tambem pode virar artigo, pagina de nicho ou CTA.
+        </p>
+      </div>
+
+      <aside class="panel hero-side">
+        <p class="eyebrow">Como encaixa no portal</p>
+        <ol class="stack-list">
+          <li>Leitor entra por artigo ou nicho.</li>
+          <li>Usa a ferramenta para adaptar a propria oferta.</li>
+          <li>Navega mais tempo e aumenta o valor da visita.</li>
+        </ol>
+      </aside>
+    </section>
+  </header>
+
+  <main class="site-shell">
+    <section
+      class="ad-slot ad-slot-banner"
+      id="ad-tool-top"
+      data-ad-slot-name="tool-top-banner"
+      aria-label="Espaco reservado para anuncio no topo da ferramenta"
+    >
+      <p class="ad-label">Espaco reservado para anuncio topo da ferramenta</p>
+      <p class="ad-help">Ponto bom para teste quando a pagina comecar a receber trafego recorrente.</p>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Gerador</p>
+        <h2>Preencha com palavras simples e saia com um kit de venda.</h2>
+      </div>
+
+      <div class="tool-layout">
+        <form class="generator-form" id="offer-form">
+          <label>
+            Seu nome ou marca
+            <input type="text" name="brand" placeholder="Ex.: Lucas Studio" required>
+          </label>
+
+          <label>
+            O que voce faz
+            <input type="text" name="service" placeholder="Ex.: landing page, design, automacao, trafego, video" required>
+          </label>
+
+          <label>
+            Para quem voce quer vender
+            <input type="text" name="audience" placeholder="Ex.: clinicas, dentistas, lojas de roupa, restaurantes" required>
+          </label>
+
+          <label>
+            Principal problema que voce resolve
+            <input type="text" name="pain" placeholder="Ex.: pouca mensagem no WhatsApp, agenda vazia, perfil fraco" required>
+          </label>
+
+          <label>
+            Resultado que o cliente quer
+            <input type="text" name="goal" placeholder="Ex.: receber mais pedidos, parecer profissional, vender mais" required>
+          </label>
+
+          <label>
+            Seu diferencial
+            <input type="text" name="edge" placeholder="Ex.: entrega rapida, foco em conversao, atendo por WhatsApp">
+          </label>
+
+          <label>
+            Seu WhatsApp com DDI e DDD
+            <input type="text" name="whatsapp" placeholder="Ex.: 5511999999999">
+          </label>
+
+          <button class="button button-primary" type="submit">Gerar minha oferta</button>
+        </form>
+
+        <section class="results-panel" aria-live="polite">
+          <div class="results-header">
+            <span class="eyebrow">Resultado</span>
+            <strong>Seu kit de venda aparece aqui</strong>
+          </div>
+
+          <article class="result-card highlight">
+            <div class="result-title-row">
+              <h3>Promessa principal</h3>
+              <button class="copy-button" type="button" data-copy-target="promise-output">Copiar</button>
+            </div>
+            <p id="promise-output">Eu ajudo negocios locais a ganhar clareza e comecar a vender com uma oferta simples.</p>
+          </article>
+
+          <article class="result-card">
+            <div class="result-title-row">
+              <h3>Escopo de entrega</h3>
+              <button class="copy-button" type="button" data-copy-target="scope-output">Copiar</button>
+            </div>
+            <ul id="scope-output" class="result-list">
+              <li>Definicao da oferta principal</li>
+              <li>Estrutura enxuta de entrega</li>
+              <li>Mensagem pronta para prospeccao</li>
+            </ul>
+          </article>
+
+          <article class="result-card">
+            <div class="result-title-row">
+              <h3>Mensagem inicial</h3>
+              <button class="copy-button" type="button" data-copy-target="message-output">Copiar</button>
+            </div>
+            <p id="message-output">Oi! Vi seu negocio e pensei em uma forma simples de melhorar sua conversao. Posso te mostrar em 3 linhas?</p>
+          </article>
+
+          <article class="result-card">
+            <div class="result-title-row">
+              <h3>Follow-up</h3>
+              <button class="copy-button" type="button" data-copy-target="followup-output">Copiar</button>
+            </div>
+            <p id="followup-output">Passando aqui porque a ideia que pensei ainda faz sentido para o seu negocio. Se quiser, eu te mando um exemplo rapido.</p>
+          </article>
+
+          <article class="result-card">
+            <div class="result-title-row">
+              <h3>Plano de ataque de 5 dias</h3>
+              <button class="copy-button" type="button" data-copy-target="plan-output">Copiar</button>
+            </div>
+            <ol id="plan-output" class="result-list">
+              <li>Definir oferta</li>
+              <li>Montar lista de leads</li>
+              <li>Enviar primeiras mensagens</li>
+              <li>Fazer follow-up</li>
+              <li>Fechar primeira entrega</li>
+            </ol>
+          </article>
+
+          <a id="whatsapp-cta" class="button button-secondary button-block disabled-link" href="#offer-form" aria-disabled="true">
+            Adicione seu WhatsApp para liberar este CTA
+          </a>
+        </section>
+      </div>
+    </section>
+
+    <section
+      class="ad-slot ad-slot-inline"
+      id="ad-tool-inline-1"
+      data-ad-slot-name="tool-inline-1"
+      aria-label="Espaco reservado para anuncio apos a ferramenta"
+    >
+      <p class="ad-label">Espaco reservado para anuncio apos o resultado</p>
+      <p class="ad-help">Bom ponto para monetizar visitantes que chegaram por conteudo organico.</p>
+    </section>
+
+    <section class="section">
+      <div class="grid-three">
+        <article class="content-card">
+          <p class="card-kicker">Derivacao</p>
+          <h3>Vire artigo</h3>
+          <p>Transforme a promessa e o escopo em um guia curto sobre o problema do publico.</p>
+        </article>
+
+        <article class="content-card">
+          <p class="card-kicker">Derivacao</p>
+          <h3>Vire pagina de nicho</h3>
+          <p>Use o texto para criar paginas especificas para dentistas, restaurantes ou lojas locais.</p>
+        </article>
+
+        <article class="content-card">
+          <p class="card-kicker">Derivacao</p>
+          <h3>Vire CTA</h3>
+          <p>Reaproveite a mensagem inicial como chamada para formulario, WhatsApp ou anuncio futuro.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer site-shell">
+    <p>A ferramenta agora faz parte de um portal pensado para receber conteudo e monetizacao.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
